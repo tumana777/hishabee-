@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+/************************ Header ************************/
+.header {
+    padding: 32px 0;
+}
+.container {
+    margin: 0 auto;
+    width: 1158px;
+    height: 54px;
+    display: flex;
+    align-items: center
+}
+.nav-list {
+    color: #1B1C1F;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    display: inline-block;
+    margin-right: 32px;
+}
+.sd {
+    margin-right: -5px;
+}
+.list1 {
+    color: #FFCE40;
+    font-weight: 700;
+    margin-left: 111px;
+}
+.lang {
+    width: 162px;
+    height: 100%;
+    margin-left: 4.5px;
+    margin-right: 16px;
+    background: #FFFFFF;
+    border: 1px solid #EFF0F7;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px rgba(8, 15, 52, 0.04);
+    display: flex;
+    align-items: center;
+}
+.usa-flag {
+    width: 36px;
+    height: 36px;
+    margin-left: 9px;
+}
+.lang p {
+    margin-left: 10px;
+    color: #1B1C1F;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+}
+.chevron {
+    margin-left: 26px;
+}
+.download-btn {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #1B1C1F;
+    width: 122px;
+    height: 54px;
+    line-height: 18px;
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+/************************ Intro ************************/
+.intro-bg {
+    width: 100%;
+    background-color: #FFCE40;
+}
+.container1 {
+    width: 1158px;
+}
+
+
+
+
+
+
+

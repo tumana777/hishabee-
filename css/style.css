@@ -249,6 +249,7 @@
 }
 
 .E-Commerce-Store-box {
+    padding-top: 32px;
     width: 359px;
     height: 272px;
     background: #FFFFFF;
@@ -257,6 +258,7 @@
 }
 
 .digital-payment-box {
+    padding-top: 32px;
     margin-top: 60px;
     margin-bottom: 24px;
     width: 359px;
@@ -267,6 +269,7 @@
 }
 
 .marketing-manager-box {
+    padding-top: 32px;
     width: 359px;
     height: 272px;
     background: #FFFFFF;
@@ -275,11 +278,23 @@
 }
 
 .sales-manager-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
     width: 64px;
     height: 64px;
     background: #FBC028;
     border-radius: 6px;
+}
+
+.smi1 {
+    position: absolute;
+}
+
+.smi2 {
+    top: 2px;
+    position: relative;
 }
 
 .sales-manager-title {
@@ -295,7 +310,7 @@
 }
 
 .sales-manager-p {
-    width: 272px;
+    width: 290px;
     margin: 0 auto;
     font-family: 'Open Sans';
     font-style: normal;
@@ -304,4 +319,52 @@
     line-height: 24px;
     text-align: center;
     color: rgba(27, 28, 31, 0.75);
+}
+
+.e-commerce-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 64px;
+    height: 64px;
+    background: #FBC028;
+    border-radius: 6px;
+}
+
+.e-commerce-icons {
+    width: 24px;
+}
+
+.e-commerce-icon2 {
+    width: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 7px;
+}
+
+.mmi1 {
+    margin-right: -6px;
+}
+
+.mmi2 {
+    margin-top: -12px;
+}
+
+.see-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin: 35px auto 70px;
+    width: 133px;
+    height: 56px;
+    background: #1B1C1F;
+    box-shadow: 0px 1px 2px rgba(105, 81, 255, 0.05);
+    border-radius: 6px;
 }

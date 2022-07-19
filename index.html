@@ -334,10 +334,10 @@
     <div class="contact-box">
         <h2>Got any Question?</h2>
         <p>Reach out to us . Call us at +8809638011199</p>
-        <div class="contact-form">
-            <input type="email" placeholder="Enter your email" class="email-form">
-            <input type="submit" value="Contact us" class="contact-us-btn">
-        </div>
+        <form class="contact-form">
+            <input type="email" placeholder="Enter your email" class="email-form" required>
+            <button type="submit" class="contact-us-btn">Contact us</button>
+        </form>
     </div>
     <!------------------------------------ Footer Section ------------------------------------->
     <footer class="footer">
@@ -352,15 +352,31 @@
             </div>
             <div class="useful-links">
                 <h4>Useful Links</h4>
-                <ul>
-                    <li><a class="as" href="#">Privacy Policy</a></li>
-                    <li><a class="as" href="#">Privacy Policy</a></li>
-                    <li><a class="as" href="#">Privacy Policy</a></li>
-                    <li><a class="as" href="#">Privacy Policy</a></li>
-                    <li><a class="as" href="#">Privacy Policy</a></li>
-                </ul>
+                <div class="list">
+                    <ul>
+                        <li><a class="links" href="#">Privacy Policy</a></li>
+                        <li><a class="links" href="#">Terms of Use</a></li>
+                        <li><a class="links" href="#">Tutorials</a></li>
+                        <li><a class="links" href="#">Feedback & Sugesstion</a></li>
+                        <li><a class="links" href="#">Contact Us</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#" class="links">Blog</a></li>
+                        <li><a href="#" class="links">Newsletter</a></li>
+                        <li><a href="#" class="links">Help Centre</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="newsletter">
+                <h4>Newsletter</h4>
+                <form class="contact-form">
+                    <input type="email" placeholder="hbm2022@gmail.com" class="email-form" required>
+                    <button type="submit" class="contact-us-btn">Subscribe</button>
+                </form>
             </div>
         </div>
+        <hr>
+        <h6>© 2022 Hishabee Business Manager. All Rights Reserved. Hishabee Technologies Limited</h6>
     </footer>
 </body>
 </html>
